@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Tianyu Hu / Site Title"
 title_separator          : "-"
 name                     : &name "Tianyu Hu"
-description              : &description "personal description"
+description              : &description "I am a junior student at the University of Science and Technology of China. My interest mostly lies in Data Science, but I love interdisciplinary subjects."
 url                      : https://tyrionhuu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &tyrion_hu
 facebook:
   username               :
   app_id                 :
@@ -89,33 +89,33 @@ author:
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=OiEPiNcAAAAJ"
   university email : "tianyuhu@mail.ustc.edu.cn"
   personal email   : "tyrionhuu@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
+  researchgate     : "https://www.researchgate.net/profile/Tianyu-Hu-13"
+  # uri              :
+  # bitbucket        :
+  # codepen          :
+  # dribbble         :
+  # flickr           :
+  facebook         : "https://www.facebook.com/profile.php?id=100083134894788"
+  # foursquare       :
   github           : "https://github.com/tyrionhuu"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
+  # google_plus      :
+  # keybase          :
+  # instagram        :
+  # impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  # lastfm           :
+  # linkedin         :
   # orcid            : "http://orcid.org/yourorcidurl"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : "replacethistwitterhandle"
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  # pinterest        :
+  # soundcloud       :
+  stackoverflow    : "https://stackoverflow.com/users/20221136"
+  # steam            :
+  # tumblr           :
+  twitter          : "https://twitter.com/tyrion_hu"
+  # vine             :
+  # weibo            :
+  # xing             :
+  # youtube          :
+  # wikipedia        :
 
 
 # Reading Files
