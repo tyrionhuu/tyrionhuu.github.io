@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Tianyu Hu / Site Title"
+title                    : "Tianyu Hu"
 title_separator          : "-"
 name                     : &name "Tianyu Hu"
 description              : &description "I am a junior student at the University of Science and Technology of China. My interest mostly lies in Data Science, but I love interdisciplinary subjects."
