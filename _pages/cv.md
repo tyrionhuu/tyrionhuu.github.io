@@ -11,29 +11,39 @@ redirect_from:
 
 Education
 ======
-* B.S. in Computer Science and Technology, University of Science and Technology of China, 2025 (expected)
+* **The University of Sydney, Sydney, Australia**
+Exchange Student
+*Feb. 2022 – Jun. 2022 (expected)*
+
+* **University of Science and Technology of China, Hefei, China**
+B.S. in Computer Science and Technology
+*Sep. 2021 – Jul. 2025 (expected)*
 
 Experience
 ======
-* Jun. 2023 – Present: Research Member
-  * University of Science and Technology of China
-  * Research on collective-intelligence-aware data mining
-  * Supervisor: Prof. Tong Xu
+* **University of Science and Technology of China, Hefei, China**
+Research Member
+Research on collective-intelligence-aware data mining
+Supervisor: Prof. Tong Xu
+*Jun. 2023 – Present* 
 
-* Jun. 2023 – Aug. 2023: Independent Researcher
-  * University of Science and Technology of China
-  * Developed a 5-level pipelined RISC-V CPU using Verilog and Vivado
-  * Supervisor: Prof. Chao Wang
+* **University of Science and Technology of China, Hefei, China**
+Independent Researcher
+Developed a 5-level pipelined RISC-V CPU using Verilog and Vivado
+Supervisor: Prof. Chao Wang
+*Jun. 2023 – Aug. 2023*
 
-* Jun. 2023 – Aug. 2023: Team Member
-  * University of Science and Technology of China
-  * Developed a comprehensive virtual file system for FreeRTOS, which is a real-time operating system for embedded devices
-  * Supervisor: Prof. Kai Xing
+* **University of Science and Technology of China, Hefei, China**
+Research Member
+Developed a comprehensive virtual file system for FreeRTOS, which is a real-time operating system for embedded devices
+Supervisor: Prof. Kai Xing
+*Jun. 2023 – Aug. 2023*
 
-* Jan. 2023 – Mar. 2023: Research Member  
-  * Online
-  * Received systematic training in computational game theory principles, focusing on topics including game theory fundamentals, normal form games, extensive form games, iterated games, and cooperative game theory
-  * Supervisor: Prof. Michael Wooldridge, Head of the Computer Science Department at the University of Oxford
+* **Online**
+Research Member
+Received systematic training in computational game theory principles, focusing on topics including game theory fundamentals, normal form games, extensive form games, iterated games, and cooperative game theory
+Supervisor: Prof. Michael Wooldridge, Head of the Computer Science Department at the University of Oxford
+*Jan. 2023 – Mar. 2023*
 
 Skills
 ======
