@@ -15,11 +15,26 @@ Education
 
 Experience
 ======
-<!-- * Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git -->
-  
+* Jun. 2023 – Present: Research Member
+  * University of Science and Technology of China
+  * Research on collective-intelligence-aware data mining
+  * Supervisor: Prof. Tong Xu
+
+* Jun. 2023 – Aug. 2023: Independent Researcher
+  * University of Science and Technology of China
+  * Developed a 5-level pipelined RISC-V CPU using Verilog and Vivado
+  * Supervisor: Prof. Chao Wang
+
+* Jun. 2023 – Aug. 2023: Team Member
+  * University of Science and Technology of China
+  * Developed a comprehensive virtual file system for FreeRTOS, which is a real-time operating system for embedded devices
+  * Supervisor: Prof. Kai Xing
+
+* Jan. 2023 – Mar. 2023: Research Member  
+  * Online
+  * Received systematic training in computational game theory principles, focusing on topics including game theory fundamentals, normal form games, extensive form games, iterated games, and cooperative game theory
+  * Supervisor: Prof. Michael Wooldridge, Head of the Computer Science Department at the University of Oxford
+
 Skills
 ======
 * Programming Languages: C/C++, Python, SQL
