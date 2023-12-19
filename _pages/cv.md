@@ -13,21 +13,19 @@ Education
 ======
 * B.S. in Computer Science and Technology, University of Science and Technology of China, 2025 (expected)
 
-Work experience
+Experience
 ======
-* Summer 2015: Research Assistant
+<!-- * Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Supervisor: Professor Git -->
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Languages: C/C++, Python, SQL
+* Tools: Git, Linux, , Visual Studio Code, PyCharm, Jupyter Notebook, Latex, Markdown
+* Software: Microsoft Office, Adobe Photoshop, Adobe Lightroom Classic, Final Cut Pro X
+* Languages: Chinese (native), English (fluent), French (basic)
 
 Publications
 ======
