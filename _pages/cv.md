@@ -15,6 +15,10 @@ Education
 Exchange Student\
 *Feb. 2024 (expected) – Jun. 2024 (expected)*
 
+## **University of Oxford (expected)**
+Visiting Student\
+*Jan. 2024 (expected) – Feb. 2024 (expected)*
+
 ## **University of Science and Technology of China, Hefei, China**
 B.S. in Computer Science and Technology\
 *Sep. 2021 – Jul. 2025 (expected)*
