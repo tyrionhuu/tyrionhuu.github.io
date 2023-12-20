@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-## **The University of Sydney, Sydney, Australia** 
-Exchange Student (expected)\
+## **The University of Sydney, Sydney, Australia (expected)** 
+Exchange Student\
 *Feb. 2024 (expected) – Jun. 2024 (expected)*
 
 ## **University of Science and Technology of China, Hefei, China**
