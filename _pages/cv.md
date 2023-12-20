@@ -12,26 +12,26 @@ redirect_from:
 Education
 ======
 ## **The University of Sydney, Sydney, Australia** 
-Exchange Student (expected)
+Exchange Student (expected)\
 *Feb. 2024 (expected) – Jun. 2024 (expected)*
 
 ## **University of Science and Technology of China, Hefei, China**
-B.S. in Computer Science and Technology
+B.S. in Computer Science and Technology\
 *Sep. 2021 – Jul. 2025 (expected)*
 
 Experience
 ======
 ## **University of Science and Technology of China, Hefei, China**
-Research Member
-Research on collective-intelligence-aware data mining
+Research Member\
+Research on collective-intelligence-aware data mining\
 Supervisor: Prof. Tong Xu
 
 *Jun. 2023 – Present* 
 
 ## **University of Science and Technology of China, Hefei, China**
-Independent Researcher
-Developed a 5-level pipelined RISC-V CPU using Verilog and Vivado
-Supervisor: Prof. Chao Wang
+Independent Researcher\
+Developed a 5-level pipelined RISC-V CPU using Verilog and Vivado\
+Supervisor: Prof. Chao Wang\
 *Jun. 2023 – Aug. 2023*
 
 ## **University of Science and Technology of China, Hefei, China**
