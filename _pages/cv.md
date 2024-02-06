@@ -15,9 +15,9 @@ Education
 Exchange Student\
 *Feb. 2024 (expected) – Jun. 2024 (expected)*
 
-## **University of Oxford (expected)**
-Visiting Student\
-*Jan. 2024 (expected) – Feb. 2024 (expected)*
+## **Oxford Prospect Program, Oxford, UK**
+Participant\
+*Jan. 2024 – Feb. 2024*
 
 ## **University of Science and Technology of China, Hefei, China**
 B.S. in Computer Science and Technology\
