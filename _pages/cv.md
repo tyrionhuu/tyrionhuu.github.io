@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-## **The University of Sydney, Sydney, Australia (expected)** 
+## **The University of Sydney, Sydney, Australia** 
 Exchange Student\
-*Feb. 2024 (expected) – Jun. 2024 (expected)*
+*Feb. 2024 – Jun. 2024 (expected)*
 
 ## **Oxford Prospect Program, Oxford, UK**
 Participant\
@@ -25,6 +25,12 @@ B.S. in Computer Science and Technology\
 
 Experience
 ======
+## **The University of Sydney, Sydney, Australia** 
+Research Member\
+Reserach on Social Media and Data Science\
+Supervisor: Prof. Tristram Alexander\
+*Feb. 2024 – Jun. 2024 (expected)*
+
 ## **University of Science and Technology of China, Hefei, China**
 Research Member\
 Research on collective-intelligence-aware data mining\
@@ -51,7 +57,7 @@ Supervisor: Prof. Michael Wooldridge, Head of the Computer Science Department at
 
 Skills
 ======
-* Programming Languages: C/C++, Python, SQL
+* Programming Languages: C/C++, Python, SQL, R, Verilog
 * Tools: Git, Linux, , Visual Studio Code, PyCharm, Jupyter Notebook, Latex, Markdown
 * Software: Microsoft Office, Adobe Photoshop, Adobe Lightroom Classic, Final Cut Pro X
 * Languages: Chinese (native), English (fluent), French (basic)
