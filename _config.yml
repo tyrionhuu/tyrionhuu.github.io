@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Tianyu Hu"
-  avatar           : "profile.png"
+  avatar           : "bio.jpeg"
   bio              : "University of Science and Technology of China\nDepartment of Computer Science and Technology"
   location         : "Hefei, China"
   # employer         :
@@ -95,7 +95,7 @@ author:
   # codepen          :
   # dribbble         :
   # flickr           :
-  facebook         : "profile.php?id=100083134894788"
+  # facebook         : "profile.php?id=100083134894788"
   # foursquare       :
   github           : "tyrionhuu"
   # google_plus      :
@@ -107,7 +107,7 @@ author:
   # orcid            : "http://orcid.org/yourorcidurl"
   # pinterest        :
   # soundcloud       :
-  stackoverflow    : "20221136"
+  # stackoverflow    : "20221136"
   # steam            :
   # tumblr           :
   twitter          : "tyrion_hu"
