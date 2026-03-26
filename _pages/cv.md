@@ -45,6 +45,13 @@ Exchange Student in Computer Science
 
 ---
 
+### **Publications**
+
+- T. Hu, Z. Tan, S. Wang, H. Qu, and T. Chen, **Multi-Agent Debate for LLM Judges with Adaptive Stability Detection**, *The Thirty-ninth Annual Conference on Neural Information Processing Systems*, 2025.
+- Z. Huang, X. Liu, T. Hu, K. Zhang, and Y. Liu, **PPTBench: Towards Holistic Evaluation of Large Language Models for PowerPoint Layout and Design Understanding**, *arXiv preprint arXiv:2512.02624*, 2025. [Link](https://arxiv.org/abs/2512.02624)
+
+---
+
 ### **Projects**  
 
 #### **iOS Application Development**  
