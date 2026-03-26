@@ -20,7 +20,6 @@
 
   @include breakpoint($large) {
     @include span(2 of 12);
-    margin-top: 0.35rem;
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
             transition: opacity 0.2s ease-in-out;
@@ -89,13 +88,11 @@
   }
 
   img {
-    width: 100%;
     max-width: 175px;
     border-radius: 24px;
     box-shadow: 0 12px 24px rgba(15, 23, 42, 0.12);
 
     @include breakpoint($large) {
-      max-width: none;
       padding: 4px;
       border: 1px solid $border-color;
     }
@@ -132,8 +129,6 @@
 
 .author__bio {
   margin: 0;
-  color: mix(#000, $gray, 22%);
-  font-size: 0.82rem;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -181,29 +176,21 @@
   cursor: default;
 
   li {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
     white-space: normal;
-    padding: 0.28rem 0.62rem;
-    background: rgba(15, 118, 110, 0.08);
-    border-radius: 999px;
   }
 
   a {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
+    display: block;
     margin-bottom: 0;
-    padding: 0;
+    padding: 0.2rem 0.6rem;
     color: inherit;
     font-size: $type-size-6;
     text-decoration: none;
-    background: transparent;
-    border-radius: 0;
+    background: rgba(15, 118, 110, 0.08);
+    border-radius: 999px;
 
     &:hover {
-      color: $primary-color;
+      background: rgba(15, 118, 110, 0.16);
     }
   }
 }
