@@ -31,7 +31,7 @@
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-5;
-  color: mix(#fff, $gray, 25%);
+  color: mix(#000, $gray, 25%);
   border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
@@ -46,6 +46,14 @@
   a + a {
     opacity: 0.5;
   }
+}
+
+.archive__item {
+  padding: 1.5rem 1.75rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: $body-color;
+  box-shadow: $box-shadow;
 }
 
 /* remove border*/
@@ -90,6 +98,8 @@
    ========================================================================== */
 
 .list__item {
+  margin-bottom: 1.5rem;
+
   @include breakpoint($medium) {
     padding-right: $right-sidebar-width-narrow;
   }

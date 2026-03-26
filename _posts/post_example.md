@@ -1,5 +1,5 @@
 ---
-title: 'Blog Post number 1'
+title: "Blog Post Number 1"
 date: 2012-08-14
 permalink: /posts/2012/08/blog-post-1/
 tags:
@@ -8,13 +8,12 @@ tags:
   - category2
 ---
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
+This is a sample blog post for testing layout, typography, and spacing.
 
-Headings are cool
-======
+## Headings Are Useful
 
-You can have many headings
-======
+You can add as many sections as you need when drafting a post.
 
-Aren't headings cool?
-------
+## Another Section
+
+Markdown keeps posts easy to read in source form while still rendering cleanly on the site.

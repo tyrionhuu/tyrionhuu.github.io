@@ -9,27 +9,23 @@
   margin-right: 0;
   width: 100%;
   clear: both;
-  /* sticky footer fix start */
-  position: absolute;
-  bottom: 0em;
-  height: auto;
-  /* sticky footer fix end */
-  margin-top: 3em;
-  color: mix(#fff, $gray, 25%);
+  position: relative;
+  margin-top: 4em;
+  color: mix(#000, $gray, 35%);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $lighter-gray;
-  border-top: 1px solid $light-gray;
+  background: linear-gradient(180deg, rgba(253, 251, 247, 0) 0%, rgba(244, 241, 234, 0.9) 40%, rgba(244, 241, 234, 1) 100%);
+  border-top: 1px solid $border-color;
 
   footer {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 0;
     max-width: 100%;
-    padding: 0 1em 2em;
+    padding: 2.5em 1.5em 3em;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -63,25 +59,24 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1rem;
   }
 
   li {
-    display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
     font-family: $sans-serif-narrow;
     font-size: $type-size-6;
     text-transform: uppercase;
   }
 
-  li + li:before {
-    content: "";
-    padding-right: 5px;
-  }
-
   a {
-    padding-right: 10px;
-    font-weight: bold;
+    padding-right: 0;
+    font-weight: 600;
   }
 
   .social-icons {

@@ -5,9 +5,11 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  flex: 1 0 auto;
+  margin-top: 2.5em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 3em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
 
@@ -17,6 +19,12 @@
 }
 
 .page {
+  background: $body-color;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow;
+  overflow: hidden;
+
   @include breakpoint($large) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
@@ -25,6 +33,11 @@
 
   .page__inner-wrap {
     @include full();
+    padding: 2.25rem 2.5rem;
+
+    @include breakpoint(max-width $small) {
+      padding: 1.75rem 1.5rem;
+    }
 
     .page__content,
     .page__meta,
@@ -37,6 +50,7 @@
 .page__title {
   margin-top: 0;
   line-height: 1;
+  letter-spacing: -0.02em;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -74,9 +88,13 @@
 
   a {
     text-decoration: underline;
+    text-decoration-color: rgba(15, 118, 110, 0.4);
+    text-decoration-thickness: 0.12em;
+    text-underline-offset: 0.18em;
 
     &:hover {
       text-decoration: underline;
+      text-decoration-color: $link-color;
 
       img {
         box-shadow: 0 0 10px rgba(#000, 0.25);
@@ -227,7 +245,7 @@
 
 .page__meta {
   margin-top: 2em;
-  color: mix(#fff, $gray, 25%);
+  color: mix(#000, $gray, 20%);
   font-family: $sans-serif;
   font-size: $type-size-6;
 
@@ -268,6 +286,7 @@
   padding: 5px 10px;
   text-decoration: none;
   border: 1px solid $light-gray;
+  background: rgba(15, 118, 110, 0.08);
   border-radius: $border-radius;
 
   &:hover {
