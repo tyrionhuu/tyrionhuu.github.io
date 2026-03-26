@@ -127,6 +127,11 @@ a {
   text-decoration-color: rgba(15, 118, 110, 0.4);
   text-decoration-thickness: 0.12em;
   text-underline-offset: 0.18em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease, background-size 0.2s ease;
+  background-image: linear-gradient(rgba(15, 118, 110, 0.12), rgba(15, 118, 110, 0.12));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 0.45em;
 
   &:focus {
     @extend %tab-focus;
@@ -140,6 +145,7 @@ a {
   &:hover {
     color: $link-color-hover;
     text-decoration-color: $link-color;
+    background-size: 100% 0.45em;
   }
 }
 
