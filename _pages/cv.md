@@ -13,11 +13,16 @@ redirect_from:
 
 #### **University of Science and Technology of China (USTC)**  
 BS in Computer Science and Technology  
-*Sep. 2021 – Jul. 2025 (Expected)*  
+*Sep. 2021 – Jul. 2025*  
 - Cumulative GPA: 3.46/4.30  
 - **Honors & Awards:**  
   - Outstanding Student Scholarship-Silver (Top 5%), Jan. 2022  
   - Yongman Yang Scholarship, Sep. 2022  
+
+#### **University of Central Florida (UCF)**
+Incoming PhD Student, Computer Science
+*Fall 2026*
+- Advised by [Prof. Song Wang](https://songw-sw.github.io)
 
 #### **The University of Sydney**  
 Exchange Student in Computer Science  
