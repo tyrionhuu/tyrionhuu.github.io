@@ -183,13 +183,17 @@
   a {
     display: block;
     margin: 0 0.75rem;
-    padding: 0.4rem 0.2rem;
+    padding: 0.45rem 0.7rem;
     color: $masthead-link-color;
     text-decoration: none;
     font-weight: 500;
+    border-radius: 999px;
+    transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
 
     &:hover {
       color: $masthead-link-color-hover;
+      background: rgba(15, 118, 110, 0.08);
+      transform: translateY(-1px);
     }
   }
 
@@ -234,27 +238,6 @@
 
     a {
       position: relative;
-
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -0.1rem;
-        height: 3px;
-        background: linear-gradient(90deg, rgba(15, 118, 110, 0.1), rgba(15, 118, 110, 0.6));
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
-      }
-
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
-      }
     }
   }
 
@@ -271,8 +254,9 @@
 
     a {
       margin: 0;
-      padding: 10px 20px;
+      padding: 10px 16px;
       font-size: $type-size-5;
+      border-radius: 12px;
 
       &:hover {
         color: $masthead-link-color-hover;
