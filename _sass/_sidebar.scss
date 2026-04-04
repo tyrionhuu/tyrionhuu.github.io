@@ -12,11 +12,11 @@
 
   @include clearfix();
   margin-bottom: 1em;
-  padding: 1.5rem;
-  background: $body-color;
-  border: 1px solid $border-color;
+  padding: 1.35rem;
+  background: rgba(253, 251, 247, 0.78);
+  border: 1px solid rgba(148, 163, 184, 0.24);
   border-radius: $border-radius;
-  box-shadow: $box-shadow;
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.05);
 
   @include breakpoint($large) {
     @include span(3 of 12);
@@ -52,6 +52,12 @@
   img {
     width: 100%;
   }
+}
+
+.author-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .sidebar__right {
@@ -103,7 +109,7 @@
   display: table-cell;
   vertical-align: top;
   padding-left: 15px;
-  padding-right: 25px;
+  padding-right: 0;
   line-height: 1.4;
 
   @include breakpoint($large) {
@@ -112,6 +118,15 @@
     padding-left: 0;
     padding-right: 0;
   }
+}
+
+.author__eyebrow {
+  margin: 0 0 0.3rem;
+  color: $primary-color;
+  font-size: $type-size-7;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .author__name {
@@ -123,74 +138,79 @@
   }
 }
 .sidebar .author__name {
-  font-family: $sans-serif;
-  font-size: $type-size-5;
+  font-family: $header-font-family;
+  font-size: 1.35rem;
 }
 
-.author__bio {
-  margin: 0;
+.author__meta {
+  margin: 0.85rem 0 0;
+  padding: 0.9rem 0 0;
+  list-style: none;
+  border-top: 1px solid rgba(148, 163, 184, 0.28);
 
-  @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.55rem;
+    margin-bottom: 0.45rem;
+    color: mix(#000, $gray, 20%);
+    font-size: 0.76rem;
+    line-height: 1.45;
+  }
+
+  li:last-child {
+    margin-bottom: 0;
+  }
+
+  .fas {
+    margin-top: 0.12rem;
+    color: $primary-color;
   }
 }
 
 .author__urls-wrapper {
-  position: relative;
   display: block;
-  vertical-align: middle;
   font-family: $sans-serif;
-  z-index: 10;
-  position: relative;
-  cursor: pointer;
-
-  li:last-child {
-    a {
-      margin-bottom: 0;
-    }
-  }
-
-  @include breakpoint($large) {
-    display: block;
-  }
-
-  button {
-    display: none;
-  }
 }
 
 .author__urls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 0.75rem;
-  position: static;
-  margin-top: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.55rem;
+  margin-top: 0;
   padding: 0;
   list-style-type: none;
   border: 0;
   border-radius: 0;
   background: transparent;
-  z-index: auto;
   box-shadow: none;
-  cursor: default;
+
+  @include breakpoint(max-width $medium) {
+    grid-template-columns: 1fr;
+  }
 
   li {
+    margin: 0;
     white-space: normal;
   }
 
   a {
-    display: block;
-    margin-bottom: 0;
-    padding: 0.2rem 0.6rem;
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 100%;
+    padding: 0.55rem 0.7rem;
     color: inherit;
-    font-size: $type-size-6;
+    font-size: 0.76rem;
     text-decoration: none;
-    background: rgba(15, 118, 110, 0.08);
-    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.74);
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    border-radius: 14px;
 
     &:hover {
-      background: rgba(15, 118, 110, 0.16);
+      color: $primary-color;
+      background: rgba(240, 253, 250, 0.92);
+      border-color: rgba(15, 118, 110, 0.22);
     }
   }
 }
