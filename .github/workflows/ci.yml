@@ -2,8 +2,14 @@ name: CI
 
 permissions:
   contents: read
+  pages: write
+  id-token: write
 
 on:
+  push:
+    branches:
+      - master
+      - main
   pull_request:
     types:
       - opened
@@ -16,7 +22,7 @@ jobs:
   build:
     name: Code standards & build
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 10
 
     strategy:
       matrix:
@@ -25,6 +31,10 @@ jobs:
     steps:
       - name: "☁️ Checkout repository"
         uses: actions/checkout@v4
+
+      - name: "📄 Setup GitHub Pages"
+        if: github.event_name == 'push'
+        uses: actions/configure-pages@v5
 
       - name: "📦 Install pnpm"
         uses: pnpm/action-setup@v4
@@ -38,7 +48,7 @@ jobs:
           cache: "pnpm"
 
       - name: "📦 Install dependencies"
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: "🔎 Lint code"
         run: pnpm run lint
@@ -48,3 +58,24 @@ jobs:
 
       - name: "🚀 Build the project"
         run: pnpm run build
+
+      - name: "📤 Upload Pages artifact"
+        if: github.event_name == 'push'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.event_name == 'push'
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: "🚀 Deploy artifact"
+        id: deployment
+        uses: actions/deploy-pages@v4
