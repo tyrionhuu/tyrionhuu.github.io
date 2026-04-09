@@ -1,0 +1,153 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+$doc-font-size              : 17;
+
+/* paragraph indention */
+$paragraph-indent           : false; // true, false (default)
+$indent-var                 : 1.3em;
+
+/* system typefaces */
+$serif                      : "Fraunces", "Bodoni MT", "Times New Roman", serif;
+$sans-serif                 : "Space Grotesk", "Helvetica Neue", "Segoe UI", Arial, sans-serif;
+$monospace                  : "IBM Plex Mono", "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+
+/* sans serif typefaces */
+$sans-serif-narrow          : $sans-serif;
+$helvetica                  : Helvetica, "Helvetica Neue", Arial, sans-serif;
+
+/* serif typefaces */
+$georgia                    : Georgia, serif;
+$times                      : Times, serif;
+$bodoni                     : "Bodoni MT", serif;
+$calisto                    : "Calisto MT", serif;
+$garamond                   : Garamond, serif;
+
+$global-font-family         : $sans-serif;
+$header-font-family         : $serif;
+$caption-font-family        : $serif;
+
+/* type scale */
+$type-size-1                : 2.441em;  // ~39.056px
+$type-size-2                : 1.953em;  // ~31.248px
+$type-size-3                : 1.563em;  // ~25.008px
+$type-size-4                : 1.25em;   // ~20px
+$type-size-5                : 1em;      // ~16px
+$type-size-6                : 0.75em;   // ~12px
+$type-size-7                : 0.6875em; // ~11px
+$type-size-8                : 0.625em;  // ~10px
+
+
+/*
+   Colors
+   ========================================================================== */
+
+$gray                       : #64748b;
+$dark-gray                  : #1f2937;
+$darker-gray                : #0f172a;
+$light-gray                 : #cbd5e1;
+$lighter-gray               : #eef2f7;
+
+$body-color                 : #fdfbf7;
+$background-color           : #f4f1ea;
+$code-background-color      : #f1f5f9;
+$code-background-color-dark : $light-gray;
+$text-color                 : $dark-gray;
+$border-color               : #e2e8f0;
+
+$primary-color              : #0f766e;
+$success-color              : #16a34a;
+$warning-color              : #f59e0b;
+$danger-color               : #ef4444;
+$info-color                 : #0ea5a4;
+
+/* brands */
+$behance-color              : #1769FF;
+$dribbble-color             : #ea4c89;
+$facebook-color             : #3b5998;
+$flickr-color               : #ff0084;
+$foursquare-color           : #0072b1;
+$github-color               : #171516;
+$google-plus-color          : #dd4b39;
+$instagram-color            : #517fa4;
+$lastfm-color               : #d51007;
+$linkedin-color             : #007bb6;
+$pinterest-color            : #cb2027;
+$rss-color                  : #fa9b39;
+$soundcloud-color           : #ff3300;
+$stackoverflow-color        : #fe7a15;
+$tumblr-color               : #32506d;
+$twitter-color              : #55acee;
+$vimeo-color                : #1ab7ea;
+$vine-color                 : #00bf8f;
+$youtube-color              : #bb0000;
+$xing-color                 : #006567;
+
+
+/* links */
+$link-color                 : $primary-color;
+$link-color-hover           : mix(#000, $link-color, 20%);
+$link-color-visited         : mix(#fff, $link-color, 25%);
+$masthead-link-color        : $darker-gray;
+$masthead-link-color-hover  : $primary-color;
+
+
+/*
+   Breakpoints
+   ========================================================================== */
+
+@include breakpoint-set("to ems", true);
+/*
+$small                      : 400px;
+$medium                     : 500px;
+$medium-wide                : 550px;
+$large                      : 1200px;
+$x-large                    : 1800px;
+*/
+
+$small                      : 600px !default;
+$medium                     : 768px !default;
+$medium-wide                : 900px !default;
+$large                      : 925px !default;
+$x-large                    : 1280px !default;
+
+/*
+   Grid
+   ========================================================================== */
+
+$right-sidebar-width-narrow : 0px;
+$right-sidebar-width        : 0px;
+$right-sidebar-width-wide   : 0px;
+
+$susy: (
+  columns: 12,
+  column-width: 120px,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: after,
+  container: $large,
+  global-box-sizing: border-box,
+  // debug: (
+  //   image: show,
+  //   color: blue,
+  //   output: overlay,
+  //   toggle: top right,
+  // ),
+);
+
+
+/*
+   Other
+   ========================================================================== */
+
+$border-radius              : 12px;
+$box-shadow                 : 0 18px 45px rgba(15, 23, 42, 0.08);
+$navicon-width              : 28px;
+$navicon-height             : 3px;
+$global-transition          : all 0.25s ease-in-out;
