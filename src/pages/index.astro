@@ -22,20 +22,25 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
   <Header />
   <main id="main-content" data-layout="index" class="app-layout">
     <section id="hero" class:list={["pt-8 pb-6", "border-b border-border"]}>
-      <div class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row">
+      <div
+        class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row"
+      >
         <div>
           <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
             Tianyu Hu
           </h1>
           <p class="text-lg">
-            Building more reliable ways to evaluate how language models judge, reason, and communicate.
+            Building more reliable ways to evaluate how language models judge,
+            reason, and communicate.
           </p>
           <p class="mt-4">
-            B.S. in Computer Science and Technology, USTC (Jul. 2025) <br>
+            B.S. in Computer Science and Technology, USTC (Jul. 2025) <br />
             Incoming Ph.D. student at UCF (Fall 2026)
           </p>
           <p class="mt-2">
-            My research centers on large language models, with broader interests in computational biology, computational social science, and computational finance.
+            My research centers on large language models, with broader interests
+            in computational biology, computational social science, and
+            computational finance.
           </p>
         </div>
         <img
@@ -46,17 +51,31 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
       </div>
 
       <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
-        <div class="flex flex-col rounded-lg border border-border p-4 shadow-sm">
-          <span class="text-sm font-semibold tracking-wide text-accent">Current Stage</span>
+        <div
+          class="flex flex-col rounded-lg border border-border p-4 shadow-sm"
+        >
+          <span class="text-sm font-semibold tracking-wide text-accent"
+            >Current Stage</span
+          >
           <strong class="mt-1">Incoming Ph.D. student at UCF</strong>
         </div>
-        <div class="flex flex-col rounded-lg border border-border p-4 shadow-sm">
-          <span class="text-sm font-semibold tracking-wide text-accent">Home Base</span>
+        <div
+          class="flex flex-col rounded-lg border border-border p-4 shadow-sm"
+        >
+          <span class="text-sm font-semibold tracking-wide text-accent"
+            >Home Base</span
+          >
           <strong class="mt-1">Hefei, China</strong>
         </div>
-        <div class="flex flex-col rounded-lg border border-border p-4 shadow-sm">
-          <span class="text-sm font-semibold tracking-wide text-accent">Focus</span>
-          <strong class="mt-1">LLM evaluation, benchmarks, and design understanding</strong>
+        <div
+          class="flex flex-col rounded-lg border border-border p-4 shadow-sm"
+        >
+          <span class="text-sm font-semibold tracking-wide text-accent"
+            >Focus</span
+          >
+          <strong class="mt-1"
+            >LLM evaluation, benchmarks, and design understanding</strong
+          >
         </div>
       </div>
 
@@ -80,7 +99,9 @@ const recentPosts = sortedPosts.filter(({ data }) => !data.featured);
             { "border-b border-border": recentPosts.length > 0 },
           ]}
         >
-          <h2 class="text-2xl font-semibold tracking-wide">Featured Publications</h2>
+          <h2 class="text-2xl font-semibold tracking-wide">
+            Featured Publications
+          </h2>
           <ul>
             {featuredPosts.map(data => (
               <Card variant="h3" {...data} />

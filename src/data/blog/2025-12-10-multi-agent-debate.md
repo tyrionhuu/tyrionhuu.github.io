@@ -8,6 +8,7 @@ tags:
   - publication
 description: "Introduces a multi-agent debate framework for LLM judges with adaptive stability detection to improve evaluation reliability."
 ---
+
 Conference paper at NeurIPS 2025.
 
 [Read on OpenReview](https://openreview.net/pdf?id=Vusd1Hw2D9)
