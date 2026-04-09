@@ -10,4 +10,6 @@ description: "Introduces a multi-agent debate framework for LLM judges with adap
 ---
 Conference paper at NeurIPS 2025.
 
+[Read on OpenReview](https://openreview.net/pdf?id=Vusd1Hw2D9)
+
 Recommended citation: T. Hu, Z. Tan, S. Wang, H. Qu, and T. Chen. Multi-Agent Debate for LLM Judges with Adaptive Stability Detection. The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025.
