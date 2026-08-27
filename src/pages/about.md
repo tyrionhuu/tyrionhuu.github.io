@@ -3,35 +3,18 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, accessible and SEO-friendly blog theme built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/).
+I am a Ph.D. student in Computer Science at the [University of Central Florida](https://www.ucf.edu/), advised by [Prof. Song Wang](https://songw-sw.github.io). Before joining UCF, I earned my B.S. in Computer Science and Technology from the University of Science and Technology of China and studied at the University of Sydney as an exchange student.
 
-![Astro Paper](public/astropaper-og.jpg)
+My research centers on large language models, especially reliable evaluation, benchmarking, and understanding how models judge, reason, and communicate. I also have broader interests in computational biology, computational social science, and computational finance.
 
-AstroPaper provides a solid foundation for blogs, or even portfolios\_ with full markdown support, built-in dark mode, and a clean layout that works out-of-the-box.
+## Selected Publications
 
-The blog posts in this theme also serve as guides, docs or example articles\_ making AstroPaper a flexible starting point for your next content-driven site.
+- **Multi-Agent Debate for LLM Judges with Adaptive Stability Detection**<br />
+  T. Hu, Z. Tan, S. Wang, H. Qu, and T. Chen · NeurIPS 2025 · [Project page](/posts/2025-12-10-multi-agent-debate/)
 
-## Features
+- **PPTBench: Towards Holistic Evaluation of Large Language Models for PowerPoint Layout and Design Understanding**<br />
+  Z. Huang, X. Liu, T. Hu, K. Zhang, and Y. Liu · arXiv 2025 · [Project page](/posts/2025-12-03-pptbench/)
 
-AstroPaper comes with a set of useful features that make content publishing easy and effective:
+## More Information
 
-- SEO-friendly
-- Fast performance
-- Light & dark mode
-- Highly customizable
-- Organizable blog posts
-- Responsive & accessible
-- Static search with [PageFind](https://pagefind.app/)
-- Automatic social image generation
-
-and so much more.
-
-## Show your support
-
-If you like [AstroPaper](https://github.com/satnaing/astro-paper), consider giving it a star ⭐️.
-
-Found a bug 🐛 or have an improvement ✨ in mind? Feel free to open an [issue](https://github.com/satnaing/astro-paper/issues), submit a [pull request](https://github.com/satnaing/astro-paper/pulls) or start a [discussion](https://github.com/satnaing/astro-paper/discussions).
-
-If you find this theme helpful, you can also [sponsor me on GitHub](https://github.com/sponsors/satnaing) or [buy me a coffee](https://buymeacoffee.com/satnaing) to show your support — every penny counts.
-
-Kyay zuu! 🙏🏼
+See my [curriculum vitae](/cv/) for education, research experience, projects, and skills.
