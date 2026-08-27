@@ -2,7 +2,7 @@ export const SITE = {
   website: "https://tyrionhuu.github.io/", // replace this with your deployed domain
   author: "Tianyu Hu",
   profile: "https://tyrionhuu.github.io/",
-  desc: "I am a junior student at the University of Science and Technology of China. My interest mostly lies in Data Science, but I love interdisciplinary subjects.",
+  desc: "Ph.D. Student in Computer Science at the University of Central Florida. My research centers on large language models, with broader interests in computational biology, computational social science, and computational finance.",
   title: "Tianyu Hu",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,

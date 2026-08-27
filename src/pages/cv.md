@@ -12,9 +12,9 @@ _B.S. in Computer Science and Technology_ (Sep. 2021 - Jul. 2025)
 - Outstanding Student Scholarship-Silver (Top 5%), Jan. 2022
 
 **University of Central Florida**  
-_Incoming Ph.D. Student, Computer Science_ (Fall 2026)
+_Ph.D. Student, Computer Science_ (Aug. 2026 – Present)
 
-- Advisor: Prof. Song Wang
+- Advisor: [Prof. Song Wang](https://songw-sw.github.io)
 
 **The University of Sydney**  
 _Exchange Student in Computer Science_ (Feb. 2024 - Jun. 2024)
@@ -24,7 +24,7 @@ _Exchange Student in Computer Science_ (Feb. 2024 - Jun. 2024)
 ## Research Experience
 
 **Evaluating LLM Performance on Domain-Specific Tasks**  
-_Anhui Province Key Laboratory of Big Data Analysis and Application, USTC_ (Sep. 2024 - Present)
+_Anhui Province Key Laboratory of Big Data Analysis and Application, USTC_ (Sep. 2024 - Jul. 2025)
 
 - Developing a benchmark to evaluate LLM performance on tasks related to PowerPoint presentations, including content understanding and visual enhancements.
 - Designing metrics and datasets to assess LLM capabilities in summarization, slide generation, and presentation formatting.
