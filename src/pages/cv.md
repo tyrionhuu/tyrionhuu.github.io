@@ -42,19 +42,3 @@ _The University of Sydney_ (Feb. 2024 - Sep. 2024)
 - **PPTBench: Towards Holistic Evaluation of Large Language Models for PowerPoint Layout and Design Understanding**  
   Z. Huang, X. Liu, T. Hu, K. Zhang, and Y. Liu · arXiv 2025 · [Paper](https://arxiv.org/abs/2512.02624)
 
-## Projects
-
-**iOS Application Development** (Sep. 2024 - Present)
-
-- Designed and implemented several lightweight iOS applications, including a flashcard app and a watchOS game.
-
-**Comprehensive Virtual File System for FreeRTOS** (Mar. 2023 - Jun. 2023)
-
-- Developed the ErisFS virtual file system with AES encryption support using C++.
-- Integrated a POSIX-style API and deployed the system on a development board.
-
-## Skills
-
-- **Programming:** C, C++, Python, Swift, R, SQL
-- **AI / ML:** LLMs, NLP, OpenAI API, Transformer models including BERT and GPT
-- **Languages:** Chinese (Native), English (C1), French (Intermediate B1), German (Basic A1)
