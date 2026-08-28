@@ -41,4 +41,3 @@ _The University of Sydney_ (Feb. 2024 - Sep. 2024)
 
 - **PPTBench: Towards Holistic Evaluation of Large Language Models for PowerPoint Layout and Design Understanding**  
   Z. Huang, X. Liu, T. Hu, K. Zhang, and Y. Liu · arXiv 2025 · [Paper](https://arxiv.org/abs/2512.02624)
-
