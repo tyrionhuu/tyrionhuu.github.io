@@ -5,7 +5,7 @@ title: "Curriculum Vitae"
 
 ## Research Interests
 
-**Long-horizon LLM agents**, including memory for long-term interaction. Previous work on reliable LLM evaluation (LLM-as-a-judge, multi-agent debate) and multimodal benchmarking.
+**Long-horizon LLM agents**, including multi-agent collaboration and memory for long-term interaction. Previous work on reliable LLM evaluation (LLM-as-a-judge, multi-agent debate) and multimodal benchmarking.
 
 ## Education
 
@@ -38,6 +38,15 @@ _Exchange Student in Computer Science_ (Feb. 2024 – Jun. 2024)
 
 ## Research Experience
 
+**Long-Horizon LLM Agents: Multi-Agent Search and Memory**  
+_Advised by Prof. Song Wang, University of Central Florida_ (Jul. 2026 – Present, Orlando, FL)
+
+- Studying multi-agent collaboration for long-horizon web search, where parallel LLM agents work on the same hard question and share passage-cited findings as they search.
+- Built the experiment harness for running teams of LLM search agents.
+- Showed that aggregating the team's pooled findings with an LLM significantly outperforms majority voting across benchmarks.
+- Currently studying how to route shared findings between agents, and extending the study to other backbones and mixed-model teams.
+- Earlier developed MemRouter, an embedding-based memory router for long-term conversational agents that is both more accurate and faster than LLM-based memory management.
+
 **LLMs and Knowledge Graphs for EHR-Based Diagnosis**  
 _Advised by Prof. Song Wang, University of Central Florida_ (Jul. 2025 – Jul. 2026, Remote)
 
@@ -46,17 +55,14 @@ _Advised by Prof. Song Wang, University of Central Florida_ (Jul. 2025 – Jul. 
 **Multi-Agent Debate for LLM Judges**  
 _Advised by Prof. Tianlong Chen, UNITES Lab, UNC Chapel Hill_ (Feb. 2025 – May 2025, Remote)
 
-- Proposed a multi-agent debate framework for LLM-as-a-judge in which agents reason collaboratively and iteratively refine their verdicts, addressing cases where majority voting fails even though individual judges are correct.
-- Formalized the debate process mathematically and proved that debate amplifies correctness compared with static ensembles.
-- Designed an adaptive stability-detection mechanism that models judge consensus with a time-varying Beta-Binomial mixture and stops the debate via a Kolmogorov–Smirnov test, improving accuracy over majority voting while keeping computation low.
-- Led to a first-author paper at NeurIPS 2025.
+- Proposed a multi-agent debate framework for LLM-as-a-judge in which agents collaboratively reason and refine their verdicts, and proved that debate amplifies correctness over static ensembles.
+- Designed an adaptive stopping mechanism based on the stability of judge consensus, improving accuracy over majority voting at low computational cost.
 
 **PPTBench: Benchmarking LLMs on PowerPoint Tasks**  
 _Advised by Dr. Kai Zhang, BDAA Lab, USTC_ (Sept. 2024 – Jul. 2025, Hefei, China)
 
-- Co-developed PPTBench, a multimodal benchmark of 4,439 samples built from 958 PPTX files, evaluating LLMs across four task categories: detection, understanding, modification, and generation.
-- Revealed a substantial gap between semantic understanding and visual-layout reasoning: models interpret slide content well but fail to produce coherent spatial arrangements (e.g., misalignment, element overlap).
-- Led to an arXiv preprint (arXiv:2512.02624).
+- Co-developed PPTBench, a multimodal benchmark evaluating LLMs on PowerPoint detection, understanding, modification, and generation tasks.
+- Revealed a substantial gap between LLMs' understanding of slide content and their visual-layout reasoning.
 
 **Quantifying the Influence of Mainstream Media**  
 _Advised by Prof. Tristram Alexander, The University of Sydney_ (Feb. 2024 – Sept. 2024, Sydney, Australia)
@@ -69,7 +75,7 @@ _Advised by Prof. Tristram Alexander, The University of Sydney_ (Feb. 2024 – S
 **Research Assistant**  
 _Supervised by Prof. Fuli Feng, USTC_ (Jul. 2025 – Jul. 2026, Hefei, China)
 
-- Built the frontend and backend of a web demo for SASRec, a self-attentive sequential recommendation model.
+- Built the frontend of a web interface for SASRec, a self-attentive sequential recommendation model.
 
 **Intern, [Eigen AI](https://www.eigenai.com)**  
 _Remote_ (Aug. 2025 – Oct. 2025)

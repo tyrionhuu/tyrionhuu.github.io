@@ -5,7 +5,7 @@ title: "About"
 
 I am a Ph.D. student in Computer Science at the [University of Central Florida](https://www.ucf.edu/), advised by [Prof. Song Wang](https://songw-sw.github.io). Before joining UCF, I earned my B.S. in Computer Science and Technology from the University of Science and Technology of China and studied at the University of Sydney as an exchange student.
 
-My current research focuses on long-horizon LLM agents, including memory for long-term interaction. Previously, I worked on reliable LLM evaluation, including LLM-as-a-judge and multi-agent debate, and on multimodal benchmarking.
+My current research focuses on long-horizon LLM agents, including multi-agent collaboration and memory for long-term interaction. Previously, I worked on reliable LLM evaluation, including LLM-as-a-judge and multi-agent debate, and on multimodal benchmarking.
 
 ## Selected Publications
 
