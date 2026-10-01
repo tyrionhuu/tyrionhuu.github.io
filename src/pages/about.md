@@ -20,4 +20,4 @@ My current research focuses on long-horizon LLM agents, including multi-agent co
 
 ## More Information
 
-See my [curriculum vitae](/cv/) for education, publications, and research and professional experience.
+See my [curriculum vitae](/cv/) for education, publications, and research and professional experience, or my [Google Scholar](https://scholar.google.com/citations?user=OiEPiNcAAAAJ) profile for a full publication list.

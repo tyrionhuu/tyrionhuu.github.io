@@ -27,6 +27,8 @@ _Exchange Student in Computer Science_ (Feb. 2024 – Jun. 2024)
 
 ## Publications
 
+Full list on [Google Scholar](https://scholar.google.com/citations?user=OiEPiNcAAAAJ).
+
 - **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents**  
   **T. Hu**, W. Lin, W. Zhang, J. Ma, and S. Wang · arXiv 2026 · [Paper](https://arxiv.org/abs/2605.00356)
 
