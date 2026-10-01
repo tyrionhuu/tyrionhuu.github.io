@@ -9,11 +9,11 @@ My current research focuses on long-horizon LLM agents, including multi-agent co
 
 ## Selected Publications
 
-- **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents**<br />
-  T. Hu, W. Lin, W. Zhang, J. Ma, and S. Wang · arXiv 2026 · [Project page](/posts/2026-05-01-memrouter/)
-
 - **Multi-Agent Debate for LLM Judges with Adaptive Stability Detection**<br />
   T. Hu, Z. Tan, S. Wang, H. Qu, and T. Chen · NeurIPS 2025 · [Project page](/posts/2025-12-10-multi-agent-debate/)
+
+- **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents**<br />
+  T. Hu, W. Lin, W. Zhang, J. Ma, and S. Wang · arXiv 2026 · [Project page](/posts/2026-05-01-memrouter/)
 
 - **PPTBench: Towards Holistic Evaluation of Large Language Models for PowerPoint Layout and Design Understanding**<br />
   Z. Huang, X. Liu, T. Hu, K. Zhang, and Y. Liu · arXiv 2025 · [Project page](/posts/2025-12-03-pptbench/)

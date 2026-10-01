@@ -29,11 +29,11 @@ _Exchange Student in Computer Science_ (Feb. 2024 – Jun. 2024)
 
 Full list on [Google Scholar](https://scholar.google.com/citations?user=OiEPiNcAAAAJ).
 
-- **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents**  
-  **T. Hu**, W. Lin, W. Zhang, J. Ma, and S. Wang · arXiv 2026 · [Paper](https://arxiv.org/abs/2605.00356)
-
 - **Multi-Agent Debate for LLM Judges with Adaptive Stability Detection**  
   **T. Hu**, Z. Tan, S. Wang, H. Qu, and T. Chen · NeurIPS 2025 · [Paper](https://openreview.net/pdf?id=Vusd1Hw2D9)
+
+- **MemRouter: Memory-as-Embedding Routing for Long-Term Conversational Agents**  
+  **T. Hu**, W. Lin, W. Zhang, J. Ma, and S. Wang · arXiv 2026 · [Paper](https://arxiv.org/abs/2605.00356)
 
 - **PPTBench: Towards Holistic Evaluation of Large Language Models for PowerPoint Layout and Design Understanding**  
   Z. Huang, X. Liu, **T. Hu**, K. Zhang, and Y. Liu · arXiv 2025 · [Paper](https://arxiv.org/abs/2512.02624)
@@ -46,7 +46,7 @@ _Advised by Prof. Song Wang, University of Central Florida_ (Jul. 2026 – Prese
 - Studying multi-agent collaboration for long-horizon web search, where parallel LLM agents work on the same hard question and share passage-cited findings as they search.
 - Built the experiment harness for running teams of LLM search agents.
 - Showed that aggregating the team's pooled findings with an LLM significantly outperforms majority voting across benchmarks.
-- Currently studying how to route shared findings between agents, and extending the study to other backbones and mixed-model teams.
+- Currently training a learned delivery controller that decides which shared findings to push to each teammate, and extending the study to other backbones and mixed-model teams.
 - Earlier developed MemRouter, an embedding-based memory router for long-term conversational agents that is both more accurate and faster than LLM-based memory management.
 
 **LLMs and Knowledge Graphs for EHR-Based Diagnosis**  
@@ -72,16 +72,7 @@ _Advised by Prof. Tristram Alexander, The University of Sydney_ (Feb. 2024 – S
 - Analyzed 1M+ YouTube comments to quantify how external events shift audience sentiment.
 - Preprocessed large-scale comment data and applied LLMs and clustering methods to characterize audience responses.
 
-## Professional Experience
+## Other Experience
 
-**Research Assistant**  
-_Supervised by Prof. Fuli Feng, USTC_ (Jul. 2025 – Jul. 2026, Hefei, China)
-
-- Built the frontend of a web interface for SASRec, a self-attentive sequential recommendation model.
-
-**Intern, [Eigen AI](https://www.eigenai.com)**  
-_Remote_ (Aug. 2025 – Oct. 2025)
-
-- Contributed to frontend and backend development of an efficient model-inference platform.
-- Containerized services with Docker and streamlined the deployment pipeline.
-- Helped build and test model-serving infrastructure for client deployments.
+- **Intern, [Eigen AI](https://www.eigenai.com)** (Aug.–Oct. 2025): model-serving and Docker deployment for an inference platform.
+- **Research Assistant, Prof. Fuli Feng, USTC** (Jul. 2025 – Jul. 2026): frontend for a SASRec recommender.
